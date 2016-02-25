@@ -231,7 +231,7 @@ ul li {
 }
 
 .bg-image-2 {
-  background: url(../images/backgrounds/background.jpg) no-repeat center bottom/cover;
+  background: url(../images/backgrounds/parquecidade_wide.jpg) no-repeat center bottom/cover;
 }
 .bg-image-2::before {
   background-color: rgba(0, 0, 0, 0.7);
@@ -376,9 +376,6 @@ ul li {
  */
 .about .section-title {
   margin: 0 0 25px;
-}
-.about figure {
-  margin-bottom: 25px;
 }
 
 /* 
@@ -582,14 +579,15 @@ ul li {
  * 7.0 Site-footer
  */
 .site-footer {
-  background-color: #000;
+  background-color: rgba(15,45,125,1);
   color: #fff;
   text-align: center;
-  padding: 30px 0;
+  padding-top: 15px;
+  padding-bottom: 0px;
+
 }
 .site-footer .site-info {
   font-weight: 400;
-  margin-bottom: 10px;
 }
 .site-footer .site-info a {
   color: #fff;

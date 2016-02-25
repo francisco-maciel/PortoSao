@@ -1,0 +1,20 @@
+.navbar-solid {
+    background-color: rgba(15,45,125,0.8) !important;
+    -webkit-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;
+}
+
+.navbar .logo {
+    display: none;
+}
+
+
+.navbar-solid .logo {
+    display: initial;
+}
+
+
+
+.site-info, .social-block {
+    margin: 0px;
+}
