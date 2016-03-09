@@ -52,10 +52,13 @@
 
                     <!-- navigation menu -->
                     <li class="active"><a data-scroll href="#about">Sobre</a></li>
-                    <li><a data-scroll href="#speakers">Inscrição</a></li>              
+                    <li><a data-scroll href="#">Participar</a></li> 
+                    <li><a data-scroll href="#teaser">"adahnimaC"</a></li> 
                     <li><a data-scroll href="#schedule">Programa</a></li>                  
                     <li><a data-scroll href="#faq">Perguntas Frequentes</a></li>
-                    <li><a data-scroll href="#photos">Percurso</a></li>
+                    <li><a data-scroll href="#faq">Apoios</a></li>
+
+                    <li><a data-scroll href="#photos">Contactos</a></li>
                 
                 </ul>
             </div>
@@ -63,7 +66,7 @@
     </nav>
 
     <header id="site-header" class="site-header valign-center"> 
-        <div class="intro">
+        <div class="intro" style="z-index:1">
 
              <img style="max-width: 25%; margin-bottom: 20px" src="assets/images/logo_solo.png" alt="Logo">
             <h2>24 Abril, 2016
@@ -71,9 +74,10 @@
             
             <h1  > Mente Sã, Porto São</h1>
             
-            <p>Caminhada pela saúde mental</p>
-            
-            <a class="btn btn-white" data-scroll href="#registration">Participar</a>
+            <p>Caminhada animada pela saúde mental</p>
+            <div style="z-index:10; display: inline-block; cursor: not-allowed; opacity: 0.9;">
+            <a id="registration-button" class="btn btn-white disabled" data-scroll href="#registration" style="z-index:11">Participa<br> <span  style="color:gray; font-size: 0.8em;"  > (brevemente disponível)</span></a>
+                </div>
         
         </div>
     </header>
@@ -83,7 +87,7 @@
             <div class="row">
                 <div class="col-sm-6">
 
-                    <h3 class="section-title">A nossa missão</h3>
+                    <h3 class="section-title">Quem somos nós?</h3>
 
                     <p>You've inspired new consumer, racked up click-thru's, blown-up brand enes. We can't give you back the weekends you worked, or erase the pain ebeing forced to make the logo bigger. But if you submit your best work we ajusts might be able to give the chance to show you best digital marketing.</p>
 
@@ -125,13 +129,13 @@
                 <div class="col-sm-3">
 
                     <i class="ion-ios-location"></i>
-                    <h3>Parque da Cidade<br>Porto</h3>
+                    <h3>Parque da Cidade<br>Porto <i style="font-size:1.0em"class="ion-ios-heart"></i></h3>
                 
                 </div>
                 <div class="col-sm-3">
 
                     <i class="ion-pricetags"></i>
-                    <h3>Adesão<br>Livre</h3>
+                    <h3>Participação<br>Livre</h3>
                 
                 </div>
                 <div class="col-sm-3">
@@ -144,12 +148,32 @@
         </div><!-- container -->
     </section>
 
-    <section id="speakers" class="section speakers">
-        <div class="container">
+    <section id="teaser" class="section teaser">
+        <div class="container"> 
+                        <div class="row">
+                <div class="col-md-12">
+
+                    <h3 class="section-title">Vídeo Promocional</h3>
+                
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4"><p>Content. This is content, it is not meant to be read or understood. Something random goes here, it can be whatever you want, it's just blankish content provided so that it fills up some space, pretty boring huh?</p>
+                <p>É preciso falar de saúde mental.</p>
+                </div> 
+             <div class="col-sm-8">
+
+            <div height="50" class="embed-responsive embed-responsive-16by9">
+                  <iframe class="embed-responsive-item" src="http://www.youtube.com/embed/YBVPs3oQWqE" allowfullscreen></iframe>
+            </div>
+
+            </div>
+            
+            <!--
             <div class="row">
                 <div class="col-md-12">
 
-                    <h3 class="section-title">Speakers</h3>
+                    <h3 class="section-title">Vídeo Promocional</h3>
                 
                 </div>
             </div>
@@ -173,8 +197,8 @@
                             <li><a href=""><i class="ion-social-googleplus"></i></a></li>
                         </ul>
 
-                    </div><!-- /.speaker -->
-                </div><!-- /.col-md-4 -->
+                    </div>
+                </div>
 
                 <div class="col-md-4">
                     <div class="speaker">
@@ -194,8 +218,8 @@
                             <li><a href=""><i class="ion-social-googleplus"></i></a></li>
                         </ul>
 
-                    </div><!-- /.speaker -->
-                </div><!-- /.col-md-4 -->
+                    </div>
+                </div>
 
                 <div class="col-md-4">
                     <div class="speaker">
@@ -215,9 +239,9 @@
                             <li><a href=""><i class="ion-social-googleplus"></i></a></li>
                         </ul>
 
-                    </div><!-- /.speaker -->
-                </div><!-- /.col-md-4 -->
-            </div><!-- /.row -->
+                    </div>
+                </div>
+            </div>
 
             <div class="row">
                 <div class="col-md-4">
@@ -277,7 +301,7 @@
                         </ul>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 
@@ -404,7 +428,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="section-title">Event Partner</h3>
+                    <h3 class="section-title">Parcerias</h3>
                 </div>
             </div>
             <div class="row">
@@ -574,7 +598,7 @@
                 <div class="col-sm-3">
                     <h3 class="section-title">Ponto de Partida</h3>
                     <address>
-                        <p>Parque da cidade<br> Estrada Interior da Circunvalação<br> 5443, 4100-183 Porto<br></p> <h3 class="section-title">Contacto</h3> <p>sunriseproject.saude@gmail.com</p>
+                        <p>Parque da cidade<br> Estrada Interior da Circunvalação<br> 5443, 4100-183 Porto<br></p> <h3 class="section-title">Contacto</h3> <p><i style="font-size:1.0em; margin-right:5px"class="ion-email"></i>sunriseproject.saude@gmail.com<br><i style="font-size:1.0em; margin-right:5px; color: #12A5F4 "class="ion-social-skype"></i>sunrise.project</p>
                     </address>
                 </div>
                 <div class="col-sm-9">
@@ -588,7 +612,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <p class="site-info">Sunrise Project</p>
+                    <p class="site-info">	&copy; 2016 Sunrise Project</p>
                     <ul class="social-block">
                         <li><a href=""><i class="ion-social-facebook"></i></a></li>
                         <li><a href=""><i class="ion-email"></i></a></li>
