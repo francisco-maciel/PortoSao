@@ -64,19 +64,19 @@ ul li {
   list-style-type: none;
   padding: 0;
 }
-.social-block li {
+.social-block div {
   display: inline-block;
 }
-.social-block li a {
+.social-block div a {
   display: inline-block;
   height: 32px;
   width: 32px;
   color: #4e4e4e;
 }
-.social-block li a i {
+.social-block div a i {
   font-size: 1.5em;
 }
-.social-block li a:hover, .social-block li a:focus {
+.social-block div a:hover, .social-block li a:focus {
   color: #000;
 }
 
@@ -233,6 +233,7 @@ ul li {
 
 .bg-image-2 {
   background: url(../images/backgrounds/parquecidade_wide.jpg) no-repeat center bottom/cover;
+  background-position: 50% 50%;
 }
 .bg-image-2::before {
   background-color: rgba(0, 0, 0, 0.7);
@@ -593,9 +594,9 @@ ul li {
 .site-footer .site-info a {
   color: #fff;
 }
-.site-footer .social-block li a {
+.site-footer .social-block div a {
   color: #fff;
 }
-.site-footer .social-block li a:hover, .site-footer .social-block li a:focus {
+.site-footer .social-block div a:hover, .site-footer .social-block li a:focus {
   opacity: 0.8;
 }

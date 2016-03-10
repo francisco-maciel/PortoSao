@@ -38,3 +38,16 @@
 #teaser {
     padding-bottom: 90px;
 }
+
+#facebook-logo {
+    font-size: 29px;
+}
+
+#email-logo {
+    font-size: 29px;
+}
+
+#skype-container div p a img  {
+    margin-bottom: 27px !important;
+    margin-left: 12px !important;
+}
