@@ -453,7 +453,7 @@ ul li {
 }
 .partner .partner-box {
   display: block;
-  opacity: 0.3;
+  opacity: 0.6;
   height: 150px;
   width: 150px;
   margin: 25px auto;
@@ -464,16 +464,16 @@ ul li {
   opacity: 1;
 }
 .partner .partner-box-1 {
-  background: url(../images/partner/partner-1.png) no-repeat center center/contain;
+  background: url(../images/support/aefpceup.png) no-repeat center center/contain;
 }
 .partner .partner-box-2 {
-  background: url(../images/partner/partner-2.png) no-repeat center center/contain;
+  background: url(../images/support/h1f.png) no-repeat center center/contain;
 }
 .partner .partner-box-3 {
-  background: url(../images/partner/partner-3.png) no-repeat center center/contain;
+  background: url(../images/support/digitalon.png) no-repeat center center/contain;
 }
 .partner .partner-box-4 {
-  background: url(../images/partner/partner-4.png) no-repeat center center/contain;
+  background: url(../images/support/portolazer.svg) no-repeat center center/contain;
 }
 .partner .partner-box-5 {
   background: url(../images/partner/partner-5.png) no-repeat center center/contain;
@@ -581,7 +581,7 @@ ul li {
  * 7.0 Site-footer
  */
 .site-footer {
-  background-color: rgba(15,45,125,0.8);
+  background-color: black;
   color: #fff;
   text-align: center;
   padding-top: 15px;
